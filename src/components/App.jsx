@@ -1,16 +1,13 @@
+// import Goal from './Goal/Goal';
+import MainHead from './MainHead/MainHead';
+import YourParameters from './YourParameters/YourParameters';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <MainHead />
+      {/* <Goal /> */}
+      <YourParameters />
+    </>
   );
 };
