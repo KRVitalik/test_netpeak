@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const FormContainer = styled.form`
+  position: relative;
   display: flex;
   gap: 159px;
   flex-direction: column;
@@ -8,7 +9,7 @@ const FormContainer = styled.form`
 
   width: 360px;
   margin: 0 auto;
-  padding-top: 99px;
+  padding-top: 90px;
 `;
 
 const RadioBtnContainer = styled.div`
@@ -28,4 +29,10 @@ const InputContainer = styled.div`
   gap: 10px;
 `;
 
-export { FormContainer, RadioBtnContainer, InputContainer };
+const IndexInfoText = styled.div`
+  position: absolute;
+  top: 253px;
+  z-index: -1;
+`;
+
+export { FormContainer, RadioBtnContainer, InputContainer, IndexInfoText };

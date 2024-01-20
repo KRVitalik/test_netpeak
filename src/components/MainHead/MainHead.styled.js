@@ -4,6 +4,7 @@ const StyledHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 9px;
 `;
 
 const HeadTitle = styled.h2`
