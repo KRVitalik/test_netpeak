@@ -6,17 +6,6 @@ const StyledHeader = styled.div`
   justify-content: center;
 `;
 
-const PostTitleText = styled.p`
-  align-self: stretch;
-  color: var(--Gray-Gray-2, #616161);
-  text-align: center;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71; /* 171.429% */
-  letter-spacing: 0.25px;
-`;
-
 const P = styled.p`
   color: var(--General-Black, #2d3436);
   text-align: center;
@@ -54,4 +43,4 @@ const ItemContentLink = styled.li`
   overflow: hidden;
 `;
 
-export { StyledHeader, PostTitleText, P, ItemContentLink, ItemContainer };
+export { StyledHeader, P, ItemContentLink, ItemContainer };

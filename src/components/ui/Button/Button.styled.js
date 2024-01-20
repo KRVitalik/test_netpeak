@@ -23,6 +23,13 @@ const ButtonStyle = styled.button`
   font-weight: 700;
   line-height: 1.44; /* 144.444% */
   letter-spacing: 0.2px;
+
+  margin: 0 auto;
+
+  &:active,
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 export { ButtonStyle };

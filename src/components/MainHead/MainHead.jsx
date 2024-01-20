@@ -1,18 +1,21 @@
 import { Icon } from 'components/ui/Icon';
 import React from 'react';
 import { HeadTitle, IconBackground, StyledHeader } from './MainHead.styled';
+import { Link } from 'react-router-dom';
 
 const MainHead = () => {
   return (
     <StyledHeader>
-      <Icon
-        iconId="back"
-        w={30}
-        h={30}
-        customStyles={{
-          cursor: 'pointer',
-        }}
-      />
+      <Link to={'..'}>
+        <Icon
+          iconId="back"
+          w={30}
+          h={30}
+          customStyles={{
+            cursor: 'pointer',
+          }}
+        />
+      </Link>
       <IconBackground>
         <Icon
           iconId="avocado"
