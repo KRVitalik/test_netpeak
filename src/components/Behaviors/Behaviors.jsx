@@ -1,7 +1,6 @@
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 import { Title } from 'components/reuseComponent/Title/Title';
 import { Button } from 'components/ui/Button/Button';
-import { Icon } from 'components/ui/Icon';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {

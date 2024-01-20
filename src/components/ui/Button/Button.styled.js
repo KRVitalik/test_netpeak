@@ -25,6 +25,7 @@ const ButtonStyle = styled.button`
   letter-spacing: 0.2px;
 
   margin: 0 auto;
+  transition: opacity 0.3s ease;
 
   &:active,
   &:hover {
