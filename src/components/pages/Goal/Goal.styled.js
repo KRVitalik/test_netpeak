@@ -28,7 +28,6 @@ const ItemContainer = styled.ul`
 `;
 
 const ItemContentLink = styled.li`
-  padding-left: 10.42px;
   border-radius: 20.848px;
   border: 1.042px solid var(--Separator-Light, #e1e1e1);
   background: var(
@@ -45,4 +44,14 @@ const ItemLink = styled(Link)`
   justify-items: center;
 `;
 
-export { StyledHeader, P, ItemContentLink, ItemContainer, ItemLink };
+const ItemText = styled.p`
+  padding-left: 10.42px;
+  color: var(--General-Black, #2d3436);
+  font-family: Inter;
+  font-size: 16.679px;
+  font-weight: 500;
+  line-height: 1.38; /* 137.5% */
+  letter-spacing: 0.208px;
+`;
+
+export { StyledHeader, P, ItemContentLink, ItemContainer, ItemLink, ItemText };

@@ -1,6 +1,12 @@
 import { Title } from 'components/reuseComponent/Title/Title';
 import { Icon } from 'components/ui/Icon';
-import { ItemContainer, ItemContentLink, ItemLink, P } from './Goal.styled';
+import {
+  ItemContainer,
+  ItemContentLink,
+  ItemLink,
+  ItemText,
+  P,
+} from './Goal.styled';
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 
 const Goal = () => {
@@ -14,26 +20,26 @@ const Goal = () => {
       <ItemContainer>
         <ItemContentLink>
           <ItemLink to={'/measure'}>
-            <p>Lose Weight</p>
-            <Icon iconId="group-1" h={172} />
+            <ItemText>Lose Weight</ItemText>
+            <Icon iconId="group-1" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
         <ItemContentLink>
           <ItemLink to={'/measure'}>
-            <p>Gain Muscle</p>
-            <Icon iconId="group-2" h={172} />
+            <ItemText>Gain Muscle</ItemText>
+            <Icon iconId="group-2" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
         <ItemContentLink>
           <ItemLink to={'/measure'}>
-            <p>Develop healthy habits</p>
-            <Icon iconId="group-3" h={172} />
+            <ItemText>Develop healthy habits</ItemText>
+            <Icon iconId="group-3" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
         <ItemContentLink>
           <ItemLink to={'/measure'}>
-            <p>Develop healthy habits</p>
-            <Icon iconId="group-4" h={172} />
+            <ItemText>Develop healthy habits</ItemText>
+            <Icon iconId="group-4" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
       </ItemContainer>

@@ -8,6 +8,7 @@ import {
   OptionText,
 } from './PhysicalExercise.styled';
 import { P } from 'components/pages/Goal/Goal.styled';
+import { Icon } from 'components/ui/Icon';
 
 const PhysicalExercise = () => {
   return (
@@ -18,7 +19,8 @@ const PhysicalExercise = () => {
       />
       <P>How active are you during the day?</P>
       <GroupItems>
-        <GroupImg src={girl} alt="girl" />
+        <Icon iconId={'Group_28'} h={276} w={172} />
+        {/* <GroupImg src={girl} alt="girl" /> */}
         <GroupItemsText>
           <OptionText>Hardly at all</OptionText>
           <OptionText>Fitness 1-2 times a week</OptionText>
