@@ -40,6 +40,11 @@ const OptionText = styled.li`
   font-weight: 500;
   line-height: 22px; /* 137.5% */
   letter-spacing: 0.2px;
+  cursor: pointer;
+
+  &:active {
+    border: 2px solid var(--Separator-Light, #e1e1e1);
+  }
 `;
 
 export { GroupItems, GroupImg, GroupItemsText, OptionText };

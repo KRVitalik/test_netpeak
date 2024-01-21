@@ -19,6 +19,12 @@ const BehaviorsGridItem = styled.li`
   border-radius: 15px;
   border: 1px solid var(--Separator-Light, #e1e1e1);
   background: var(--Background-Light, #fff);
+  cursor: pointer;
+
+  &:active,
+  &:hover {
+    border: 2px solid var(--Separator-Light, #e1e1e1);
+  }
 `;
 
 const BehaviorsGridItemText = styled.p`

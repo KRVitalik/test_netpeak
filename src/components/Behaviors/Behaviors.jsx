@@ -36,8 +36,8 @@ const Behaviors = () => {
                 y2="0.000437975"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FD9800" />
-                <stop offset="1" stop-color="#FFDE00" />
+                <stop stopColor="#FD9800" />
+                <stop offset="1" stopColor="#FFDE00" />
               </linearGradient>
             </defs>
           </svg>
@@ -51,7 +51,7 @@ const Behaviors = () => {
             viewBox="0 0 30 30"
             fill="none"
           >
-            <g clip-path="url(#clip0_448_113)">
+            <g clipPath="url(#clip0_448_113)">
               <path
                 d="M15 0C6.72365 0 0 6.72353 0 15C0 23.2765 6.72365 30 15 30C23.2764 30 30 23.2765 30 15C30 6.72353 23.2764 0 15 0ZM15 20.2941C12.0882 20.2941 9.70588 17.9117 9.70588 15C9.70588 12.0882 12.0882 9.70588 15 9.70588C17.9118 9.70588 20.2941 12.0882 20.2941 15C20.2941 17.9117 17.9118 20.2941 15 20.2941Z"
                 fill="url(#paint0_linear_448_113)"
@@ -70,8 +70,8 @@ const Behaviors = () => {
                 y2="0"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#A93AFF" />
-                <stop offset="1" stop-color="#FF81FF" />
+                <stop stopColor="#A93AFF" />
+                <stop offset="1" stopColor="#FF81FF" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_448_113"
@@ -81,8 +81,8 @@ const Behaviors = () => {
                 y2="15"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFBEF9" />
-                <stop offset="1" stop-color="#FFF1FF" />
+                <stop stopColor="#FFBEF9" />
+                <stop offset="1" stopColor="#FFF1FF" />
               </linearGradient>
               <clipPath id="clip0_448_113">
                 <rect width="30" height="30" fill="white" />
@@ -99,7 +99,7 @@ const Behaviors = () => {
             viewBox="0 0 30 30"
             fill="none"
           >
-            <g clip-path="url(#clip0_448_304)">
+            <g clipPath="url(#clip0_448_304)">
               <path
                 d="M7.08981 5.27344H22.9101C23.214 5.27344 23.4972 5.11553 23.6585 4.85631C23.8182 4.59709 23.8319 4.27354 23.6963 4.00143L21.9385 0.485801C21.7892 0.187969 21.4854 0 21.1523 0H8.84763C8.51458 0 8.21077 0.187969 8.06142 0.485801L6.3036 4.00143C6.16802 4.27354 6.18173 4.59709 6.3414 4.85631C6.5027 5.11553 6.78595 5.27344 7.08981 5.27344ZM22.9101 7.14844H7.08981C6.84436 7.14844 6.60917 7.25145 6.44265 7.43256C6.27612 7.61279 6.19374 7.85572 6.21436 8.10029L7.97218 29.194C8.00991 29.6498 8.39101 30 8.84763 30H21.1523C21.6089 30 21.99 29.6498 22.0278 29.194L23.7856 8.10029C23.8062 7.85566 23.7238 7.61279 23.5573 7.43256C23.3908 7.25145 23.1556 7.14844 22.9101 7.14844Z"
                 fill="url(#paint0_linear_448_304)"
@@ -118,8 +118,8 @@ const Behaviors = () => {
                 y2="0"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#A93AFF" />
-                <stop offset="1" stop-color="#FF81FF" />
+                <stop stopColor="#A93AFF" />
+                <stop offset="1" stopColor="#FF81FF" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_448_304"
@@ -129,8 +129,8 @@ const Behaviors = () => {
                 y2="3.51562"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFBEF9" />
-                <stop offset="1" stop-color="#FFF1FF" />
+                <stop stopColor="#FFBEF9" />
+                <stop offset="1" stopColor="#FFF1FF" />
               </linearGradient>
               <clipPath id="clip0_448_304">
                 <rect width="30" height="30" fill="white" />
@@ -164,9 +164,9 @@ const Behaviors = () => {
                 y2="3.51562"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#ADDCFF" />
-                <stop offset="0.5028" stop-color="#EAF6FF" />
-                <stop offset="1" stop-color="#EAF6FF" />
+                <stop stopColor="#ADDCFF" />
+                <stop offset="0.5028" stopColor="#EAF6FF" />
+                <stop offset="1" stopColor="#EAF6FF" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_448_400"
@@ -176,8 +176,8 @@ const Behaviors = () => {
                 y2="0"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#5558FF" />
-                <stop offset="1" stop-color="#00C0FF" />
+                <stop stopColor="#5558FF" />
+                <stop offset="1" stopColor="#00C0FF" />
               </linearGradient>
             </defs>
           </svg>
@@ -191,7 +191,7 @@ const Behaviors = () => {
             viewBox="0 0 30 30"
             fill="none"
           >
-            <g clip-path="url(#clip0_448_513)">
+            <g clipPath="url(#clip0_448_513)">
               <path
                 d="M29.2443 17.8199L17.077 16.0818C16.8074 16.0423 16.5277 16.1359 16.332 16.3307C16.1362 16.5264 16.0436 16.8028 16.083 17.0766L17.822 29.2448C17.8921 29.7291 18.342 30.0598 18.8159 29.9906C20.9909 29.6808 23.0869 28.8044 24.8739 27.4543C25.255 27.1659 25.3356 26.6252 25.0558 26.2373C24.4883 25.4541 25.3387 24.399 26.2403 25.0545C26.6282 25.3343 27.1672 25.2536 27.4573 24.8717C28.8066 23.0821 29.6838 20.987 29.991 18.8137C30.0597 18.3332 29.725 17.8885 29.2443 17.8199ZM13.7675 14.6961C13.6789 14.0774 14.2093 13.5469 14.8281 13.6353L25.2703 15.127C25.6143 15.1714 26.2176 14.8172 26.2866 14.1829C26.3278 13.8095 26.3672 13.4345 26.3672 13.0499C26.3672 6.52768 21.4954 0.922079 15.0376 0.0105361C14.7938 -0.0289561 14.5535 0.0422939 14.3647 0.195048C14.1758 0.346103 14.0574 0.569286 14.0385 0.811337C14.0007 1.27481 13.6334 1.62415 13.1837 1.62415C12.7339 1.62415 12.3666 1.27481 12.3288 0.811337C12.3099 0.569286 12.1914 0.346161 12.0026 0.195048C11.8138 0.0431143 11.57 -0.0281358 11.3297 0.0105361C4.87178 0.922079 0 6.52768 0 13.0499C0 20.3198 5.91375 26.2335 13.1836 26.2335C13.5732 26.2335 13.9509 26.1932 14.4865 26.1331C14.9705 26.0805 15.3304 25.639 15.2607 25.1349L13.7675 14.6961Z"
                 fill="url(#paint0_linear_448_513)"
@@ -210,8 +210,8 @@ const Behaviors = () => {
                 y2="-0.000187635"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FD5900" />
-                <stop offset="1" stop-color="#FFDE00" />
+                <stop stopColor="#FD5900" />
+                <stop offset="1" stopColor="#FFDE00" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_448_513"
@@ -221,8 +221,8 @@ const Behaviors = () => {
                 y2="5.13988"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFE59A" />
-                <stop offset="1" stop-color="#FFFFD5" />
+                <stop stopColor="#FFE59A" />
+                <stop offset="1" stopColor="#FFFFD5" />
               </linearGradient>
               <clipPath id="clip0_448_513">
                 <rect width="30" height="30" fill="white" />
@@ -239,7 +239,7 @@ const Behaviors = () => {
             viewBox="0 0 30 30"
             fill="none"
           >
-            <g clip-path="url(#clip0_448_279)">
+            <g clipPath="url(#clip0_448_279)">
               <path
                 d="M4.3934 25.6066C10.2513 31.4645 19.7487 31.4645 25.6066 25.6066C31.4645 19.7487 31.4645 10.2513 25.6066 4.39339C19.7487 -1.46447 10.2513 -1.46447 4.3934 4.39339C-1.46447 10.2513 -1.46447 19.7487 4.3934 25.6066Z"
                 fill="url(#paint0_linear_448_279)"
@@ -258,8 +258,8 @@ const Behaviors = () => {
                 y2="4.39339"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FD3A84" />
-                <stop offset="1" stop-color="#FFA68D" />
+                <stop stopColor="#FD3A84" />
+                <stop offset="1" stopColor="#FFA68D" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_448_279"
@@ -269,8 +269,8 @@ const Behaviors = () => {
                 y2="7.54223"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FFC2CC" />
-                <stop offset="1" stop-color="#FFF2F4" />
+                <stop stopColor="#FFC2CC" />
+                <stop offset="1" stopColor="#FFF2F4" />
               </linearGradient>
               <clipPath id="clip0_448_279">
                 <rect

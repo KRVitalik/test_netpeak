@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const FormContainer = styled.form`
   position: relative;
   display: flex;
-  gap: 159px;
   flex-direction: column;
   justify-content: center;
 
@@ -38,8 +37,8 @@ const ButtonStyleImperial = styled.button`
   letter-spacing: 2.5px;
   text-transform: uppercase;
   align-items: center;
-  background-color: rgba(95, 203, 57, 0.2);
-
+  /* background-color: rgba(95, 203, 57, 0.2); */
+  background-color: transparent;
   padding: 0;
   outline: 0;
   border-top-left-radius: 10px;
@@ -82,9 +81,16 @@ const InputContainer = styled.div`
 `;
 
 const IndexInfoText = styled.div`
+  margin-top: 131px;
+  margin-bottom: 116px;
+`;
+
+const InputPosition = styled.div`
   position: absolute;
-  top: 253px;
-  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: 132px;
 `;
 
 export {
@@ -94,4 +100,5 @@ export {
   IndexInfoText,
   ButtonStyleMetric,
   ButtonStyleImperial,
+  InputPosition,
 };
