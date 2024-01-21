@@ -18,7 +18,6 @@ const PhysicalExercise = () => {
       <P>How active are you during the day?</P>
       <GroupItems>
         <Icon iconId={'Group_28'} h={276} w={172} />
-        {/* <GroupImg src={girl} alt="girl" /> */}
         <GroupItemsText>
           <OptionText>Hardly at all</OptionText>
           <OptionText>Fitness 1-2 times a week</OptionText>
