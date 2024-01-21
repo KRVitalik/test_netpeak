@@ -5,7 +5,7 @@ const BehaviorsGrid = styled.ul`
   gap: 15px;
   justify-content: center;
   grid-template-rows: repeat(3, 60px);
-  grid-template-columns: repeat(2, 172px);
+  grid-template-columns: repeat(2, minmax(0, 172px));
   margin-top: 15px;
   margin-bottom: 129px;
 `;

@@ -7,8 +7,19 @@ import {
 } from './PhysicalExercise.styled';
 import { P } from 'components/pages/Goal/Goal.styled';
 import { Icon } from 'components/ui/Icon';
+import { useEffect, useState } from 'react';
 
 const PhysicalExercise = () => {
+  const [value, setValue] = useState('');
+
+  const handleClick = e => {
+    setValue(e);
+  };
+
+  useEffect(() => {
+    console.log(value);
+  }, [value]);
+
   return (
     <>
       <Title title={'Physical exercise'} />
@@ -19,10 +30,18 @@ const PhysicalExercise = () => {
       <GroupItems>
         <Icon iconId={'Group_28'} h={276} w={172} />
         <GroupItemsText>
-          <OptionText>Hardly at all</OptionText>
-          <OptionText>Fitness 1-2 times a week</OptionText>
-          <OptionText>Fitness 3-5 times a week</OptionText>
-          <OptionText>Fitness 5-7 times a week</OptionText>
+          <OptionText onClick={e => handleClick('Hardly at all')}>
+            Hardly at all
+          </OptionText>
+          <OptionText onClick={e => handleClick('Fitness 1-2 times a week')}>
+            Fitness 1-2 times a week
+          </OptionText>
+          <OptionText onClick={e => handleClick('Fitness 3-5 times a week')}>
+            Fitness 3-5 times a week
+          </OptionText>
+          <OptionText onClick={e => handleClick('Fitness 5-7 times a week')}>
+            Fitness 5-7 times a week
+          </OptionText>
         </GroupItemsText>
       </GroupItems>
     </>

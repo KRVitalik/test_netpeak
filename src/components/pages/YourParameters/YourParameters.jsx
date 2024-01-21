@@ -34,11 +34,15 @@ const YourParameters = () => {
   };
 
   const handleChange = e => {
-    setParameters({
+    setParameters(prevParameters => ({
+      ...prevParameters,
       [e.target.name]: e.target.value,
-    });
+    }));
   };
-  console.log(parameters);
+
+  const handleButtonClick = () => {
+    console.log(parameters);
+  };
 
   return (
     <FormContainer>
@@ -88,7 +92,7 @@ const YourParameters = () => {
         <AfterTitleText text={`What are your height and body weight? `} />
       </IndexInfoText>
       <Link to={'/destructive-behaviors'}>
-        <Button label={'Continue'} />
+        <Button label={'Continue'} action={handleButtonClick} />
       </Link>
     </FormContainer>
   );

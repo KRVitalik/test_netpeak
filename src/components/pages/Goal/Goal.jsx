@@ -10,6 +10,9 @@ import {
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 
 const Goal = () => {
+  const handleClick = e => {
+    console.log(e);
+  };
   return (
     <div>
       <Title title={'The Goal'} />
@@ -18,25 +21,25 @@ const Goal = () => {
       />
       <P>What are your goals?</P>
       <ItemContainer>
-        <ItemContentLink>
+        <ItemContentLink onClick={() => handleClick('Lose Weight')}>
           <ItemLink to={'/measure'}>
             <ItemText>Lose Weight</ItemText>
             <Icon iconId="group-1" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
-        <ItemContentLink>
+        <ItemContentLink onClick={() => handleClick('Gain Muscle')}>
           <ItemLink to={'/measure'}>
             <ItemText>Gain Muscle</ItemText>
             <Icon iconId="group-2" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
-        <ItemContentLink>
+        <ItemContentLink onClick={() => handleClick('Develop healthy habits')}>
           <ItemLink to={'/measure'}>
             <ItemText>Develop healthy habits</ItemText>
             <Icon iconId="group-3" h={172} w={'100%'} />
           </ItemLink>
         </ItemContentLink>
-        <ItemContentLink>
+        <ItemContentLink onClick={() => handleClick('Develop healthy habits')}>
           <ItemLink to={'/measure'}>
             <ItemText>Develop healthy habits</ItemText>
             <Icon iconId="group-4" h={172} w={'100%'} />
