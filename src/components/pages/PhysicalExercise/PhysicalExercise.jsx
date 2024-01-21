@@ -1,8 +1,6 @@
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 import { Title } from 'components/reuseComponent/Title/Title';
-import girl from '../../../assets/girl.png';
 import {
-  GroupImg,
   GroupItems,
   GroupItemsText,
   OptionText,
