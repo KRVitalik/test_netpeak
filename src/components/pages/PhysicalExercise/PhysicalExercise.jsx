@@ -1,14 +1,13 @@
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 import { Title } from 'components/reuseComponent/Title/Title';
-import girl from '../../assets/girl.png';
-import React from 'react';
+import girl from '../../../assets/girl.png';
 import {
   GroupImg,
   GroupItems,
   GroupItemsText,
   OptionText,
 } from './PhysicalExercise.styled';
-import { P } from 'components/Goal/Goal.styled';
+import { P } from 'components/pages/Goal/Goal.styled';
 
 const PhysicalExercise = () => {
   return (

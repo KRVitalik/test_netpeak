@@ -1,5 +1,5 @@
 import { Icon } from 'components/ui/Icon';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HeadTitle, IconBackground, StyledHeader } from './MainHead.styled';
 import { Link, useLocation } from 'react-router-dom';
 

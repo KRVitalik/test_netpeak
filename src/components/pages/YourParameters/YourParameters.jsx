@@ -1,5 +1,5 @@
 import { Button } from 'components/ui/Button/Button';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   FormContainer,
   IndexInfoText,

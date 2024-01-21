@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
@@ -27,10 +28,6 @@ const ItemContainer = styled.ul`
 `;
 
 const ItemContentLink = styled.li`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-items: center;
   padding-left: 10.42px;
   border-radius: 20.848px;
   border: 1.042px solid var(--Separator-Light, #e1e1e1);
@@ -41,4 +38,11 @@ const ItemContentLink = styled.li`
   overflow: hidden;
 `;
 
-export { StyledHeader, P, ItemContentLink, ItemContainer };
+const ItemLink = styled(Link)`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+`;
+
+export { StyledHeader, P, ItemContentLink, ItemContainer, ItemLink };
