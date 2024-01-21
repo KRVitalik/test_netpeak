@@ -14,8 +14,10 @@ const MainHead = () => {
   }, [location]);
 
   const customStyle = {
+    maxWidth: 1440,
+    margin: '0 auto',
     justifyContent: 'start',
-    paddingLeft: '165px',
+    paddingLeft: 165,
   };
 
   return (

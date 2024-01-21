@@ -21,7 +21,8 @@ const P = styled.p`
 const ItemContainer = styled.ul`
   display: grid;
   grid-template-rows: repeat(2, 172px);
-  grid-template-columns: repeat(2, 172px);
+  grid-template-columns: repeat(2, minmax(0, 172px));
+
   gap: 16px;
   justify-content: center;
   margin-top: 15px;

@@ -12,10 +12,9 @@ const BehaviorsGrid = styled.ul`
 
 const BehaviorsGridItem = styled.li`
   display: flex;
-  padding: 12px 24px 12px 15px;
+  padding-left: 15px;
   align-items: center;
   gap: 10px;
-  flex-shrink: 0;
   border-radius: 15px;
   border: 1px solid var(--Separator-Light, #e1e1e1);
   background: var(--Background-Light, #fff);
