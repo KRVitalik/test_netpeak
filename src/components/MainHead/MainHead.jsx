@@ -7,8 +7,6 @@ const MainHead = () => {
   const location = useLocation();
   const [styles, setStyles] = useState(false);
 
-  console.log(location.pathname === '/destructive-behaviors');
-
   useEffect(() => {
     if (location.pathname === '/destructive-behaviors') {
       setStyles(true);
