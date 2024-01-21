@@ -19,7 +19,6 @@ const P = styled.p`
 
 const ItemContainer = styled.ul`
   display: grid;
-
   grid-template-rows: repeat(2, 172px);
   grid-template-columns: repeat(2, 172px);
   gap: 16px;
@@ -33,7 +32,6 @@ const ItemContentLink = styled.li`
   align-items: center;
   justify-items: center;
   padding-left: 10.42px;
-
   border-radius: 20.848px;
   border: 1.042px solid var(--Separator-Light, #e1e1e1);
   background: var(

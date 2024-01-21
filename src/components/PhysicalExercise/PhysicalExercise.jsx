@@ -12,12 +12,11 @@ import { P } from 'components/Goal/Goal.styled';
 
 const PhysicalExercise = () => {
   return (
-    <div>
+    <>
       <Title title={'Physical exercise'} />
       <AfterTitleText
         text={`Physical exercise means a lot for a woman who \nwants to lose kilos and works at the office`}
       />
-
       <P>How active are you during the day?</P>
       <GroupItems>
         <GroupImg src={girl} alt="girl" />
@@ -28,7 +27,7 @@ const PhysicalExercise = () => {
           <OptionText>Fitness 5-7 times a week</OptionText>
         </GroupItemsText>
       </GroupItems>
-    </div>
+    </>
   );
 };
 

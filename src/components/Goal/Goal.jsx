@@ -1,6 +1,5 @@
 import { Title } from 'components/reuseComponent/Title/Title';
 import { Icon } from 'components/ui/Icon';
-import React from 'react';
 import { ItemContainer, ItemContentLink, P } from './Goal.styled';
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 import { Link } from 'react-router-dom';
@@ -12,7 +11,6 @@ const Goal = () => {
       <AfterTitleText
         text={`Focus on the health benefits you need.\nBalanced nutrition will let you achieve them`}
       />
-
       <P>What are your goals?</P>
       <ItemContainer>
         <Link to={'/measure'}>

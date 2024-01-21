@@ -28,7 +28,6 @@ const ButtonStyleImperial = styled.button`
   flex-shrink: 0;
   color: var(--primary-100, #5fcb39);
   text-align: center;
-  /* 12 sp • MINICAPS */
   font-family: Inter;
   font-size: 12px;
   font-style: normal;
@@ -37,7 +36,6 @@ const ButtonStyleImperial = styled.button`
   letter-spacing: 2.5px;
   text-transform: uppercase;
   align-items: center;
-  /* background-color: rgba(95, 203, 57, 0.2); */
   background-color: transparent;
   padding: 0;
   outline: 0;
@@ -55,7 +53,6 @@ const ButtonStyleMetric = styled.button`
   justify-content: center;
   color: var(--primary-100, #5fcb39);
   text-align: center;
-  /* 12 sp • MINICAPS */
   font-family: Inter;
   font-size: 12px;
   font-style: normal;

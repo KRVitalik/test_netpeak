@@ -33,7 +33,6 @@ const OptionText = styled.li`
   background: var(--Background-Light, #fff);
 
   color: var(--General-Black, #2d3436);
-  /* 16 sp • Paragraph Bold */
   font-family: Inter;
   font-size: 16px;
   font-style: normal;

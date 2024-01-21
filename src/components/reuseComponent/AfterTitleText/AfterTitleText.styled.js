@@ -9,7 +9,6 @@ const TextStyle = styled.p`
   font-weight: 400;
   line-height: 1.71; /* 171.429% */
   letter-spacing: 0.25px;
-
   white-space: pre-wrap;
 `;
 

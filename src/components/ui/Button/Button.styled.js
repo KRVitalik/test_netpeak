@@ -12,18 +12,14 @@ const ButtonStyle = styled.button`
   background: var(--primary-100, #5fcb39);
   border: 0;
   outline: 0;
-
   flex-direction: column;
-
   color: var(--General-White, #fff);
   text-align: center;
-
   font-family: Inter;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.44; /* 144.444% */
   letter-spacing: 0.2px;
-
   margin: 0 auto;
   transition: opacity 0.3s ease;
 

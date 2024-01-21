@@ -9,7 +9,6 @@ const StyledHeader = styled.div`
 
 const HeadTitle = styled.h2`
   color: #374234;
-
   font-size: 18px;
   font-weight: 600;
   line-height: normal;

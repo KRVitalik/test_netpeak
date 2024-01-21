@@ -1,7 +1,6 @@
 import { AfterTitleText } from 'components/reuseComponent/AfterTitleText/AfterTitleText';
 import { Title } from 'components/reuseComponent/Title/Title';
 import { Button } from 'components/ui/Button/Button';
-import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   BehaviorsGrid,
@@ -11,7 +10,7 @@ import {
 
 const Behaviors = () => {
   return (
-    <div>
+    <>
       <Title title={'Destructive behaviors'} />
       <AfterTitleText text={`We all have them! Which are yours?`} />
       <BehaviorsGrid>
@@ -288,7 +287,7 @@ const Behaviors = () => {
       <Link to={'/physical-exercise'}>
         <Button label={'Continue'} />
       </Link>
-    </div>
+    </>
   );
 };
 

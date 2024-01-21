@@ -29,7 +29,6 @@ const BehaviorsGridItem = styled.li`
 
 const BehaviorsGridItemText = styled.p`
   color: var(--General-Black, #2d3436);
-  /* 12 sp • Paragraph Mobile */
   font-family: Inter;
   font-size: 12px;
   font-style: normal;

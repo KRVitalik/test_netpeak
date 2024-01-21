@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const TitleStyle = styled.h1`
   color: var(--General-Black, #2d3436);
   text-align: center;
-  /* 24 sp • Paragraph Bold */
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
