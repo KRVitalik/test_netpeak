@@ -1,11 +1,27 @@
 import { Icon } from 'components/ui/Icon';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HeadTitle, IconBackground, StyledHeader } from './MainHead.styled';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const MainHead = () => {
+  const location = useLocation();
+  const [styles, setStyles] = useState(false);
+
+  console.log(location.pathname === '/destructive-behaviors');
+
+  useEffect(() => {
+    if (location.pathname === '/destructive-behaviors') {
+      setStyles(true);
+    } else setStyles(false);
+  }, [location]);
+
+  const customStyle = {
+    justifyContent: 'start',
+    paddingLeft: '165px',
+  };
+
   return (
-    <StyledHeader>
+    <StyledHeader style={styles ? customStyle : {}}>
       <Link to={'..'}>
         <Icon
           iconId="back"
